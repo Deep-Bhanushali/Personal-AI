@@ -1,0 +1,28 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment
+envjarvis/
+
+# Ignore SQLite database
+*.db
+
+# Ignore VSCode temporary files
+*.code-workspace
+.vscode/
+tempCodeRunnerFile.py
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log and cache files
+*.log
+*.cache
+
+# Ignore environment files (if any)
+.env
+
+engine/auth/samples/
