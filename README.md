@@ -1,7 +1,6 @@
-
 # Personalized AI Assistant 🤖✨
 
-A fully voice-activated personalized AI assistant that uses speech recognition, text-to-speech, and a chatbot-like interface to interact with users via voice and visual animations—like your own desktop Siri!
+A fully voice-activated personalized AI assistant that uses speech recognition, facial recognition, and text-to-speech to interact with users via voice and visual animations — like your own desktop Siri!
 
 ---
 
@@ -9,6 +8,7 @@ A fully voice-activated personalized AI assistant that uses speech recognition, 
 
 - 🎤 **Voice Command Input** via microphone (speech recognition)
 - 🗣 **Speech Synthesis Output** using `pyttsx3` (offline TTS)
+- 🧑‍💻 **Facial Recognition Login** for secure and personalized access
 - 📺 **Siri-Style Wave Animation** for active listening feedback
 - 💬 **Chat Interface**: Real-time chat canvas showing interactions with sender/receiver format, including plans to support **WhatsApp message automation**
 - 📱 **WhatsApp Message Sending Support** via automation APIs  
@@ -24,7 +24,7 @@ A fully voice-activated personalized AI assistant that uses speech recognition, 
   `HTML`, `CSS`, `JavaScript`, `jQuery`, `Textillate.js`, `Animate.css`
 
 - **Backend:**  
-  `Python 3`, `pyttsx3`, `speech_recognition`, `gevent`, `eel`
+  `Python 3`, `pyttsx3`, `speech_recognition`, `OpenCV`, `gevent`, `eel`
 
 - **Integration:**  
   `Eel` – for seamless bridging of Python logic with modern JS frontends
@@ -44,51 +44,3 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Run the app
 python run.py
-```
-
----
-
-## 📂 Project Structure
-
-```
-Personal-AI/
-├── main.py
-├── requirements.txt
-├── assets/
-├── templates/
-│   └── index.html
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── animations/
-└── engine/
-    └── modules.py
-```
-
----
-
-## 🧠 Future Enhancements
-
-- 📆 **Calendar and Schedule Management**  
-- 🌍 **Weather, News, and Location-based Updates**  
-- 🔐 **User Authentication / Personalization**
-
----
-
-## 🤝 Contributing
-
-Feel free to fork the repo, improve features, and submit a PR.
-
-```bash
-git checkout -b feature/YourFeature
-git commit -m "Add new feature"
-git push origin feature/YourFeature
-```
-
----
-
-## 🙏 Acknowledgments
-
-- OpenAI Whisper for optional transcription  
-- Python + JS dev community for Eel integration  
-- Inspiration from Apple's Siri and Google Assistant
